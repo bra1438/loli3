@@ -23,7 +23,7 @@ The datasets used in this project:
 - [Heart Disease dataset]()
 - Thanks to the Streamlit community for providing an intuitive framework for building interactive web applications.
 
-### ``You can check the Complete Separate Project of each of this Disease Prediction``
+### ``You can check the Complete Separate Project of each of these Disease Predictions``
 
 - [Diabetes Prediction](https://github.com/dhrupad17/Diabetes-Prediction)
 - [Parkinson Disease Prediction](https://github.com/dhrupad17/Parkinsons-Disease-Detector)
