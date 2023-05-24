@@ -28,3 +28,5 @@ The datasets used in this project:
 - [Diabetes Prediction](https://github.com/dhrupad17/Diabetes-Prediction)
 - [Parkinson Disease Prediction](https://github.com/dhrupad17/Parkinsons-Disease-Detector)
 - [Heart Disease Prediction](https://github.com/dhrupad17/Heart-Disease-Prediction)
+
+### Contributions are welcome! If you have any suggestions, enhancements, or bug fixes, please open an issue or submit a pull request.
