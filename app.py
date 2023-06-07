@@ -41,7 +41,7 @@ def heart_disease_prediction(input_data):
 
 # Define the Streamlit app
 def main():
-    st.title('Multiple Disease Prediction System')
+    st.title('Design and dev by : MISS LAILA / Multiple Disease Prediction System')
 
 
     # Create a sidebar for disease selection
