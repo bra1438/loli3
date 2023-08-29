@@ -41,7 +41,7 @@ def heart_disease_prediction(input_data):
 
 # Define the Streamlit app
 def main():
-    st.title('Design and dev by : REEM  / Multiple Disease Prediction System')
+    st.title('Design and developed by : Rayan Aljaloud  / Multiple Disease Prediction System')
 
 
     # Create a sidebar for disease selection
