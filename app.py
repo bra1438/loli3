@@ -20,26 +20,21 @@ def diabetes_prediction(input_data):
 # Define the Streamlit app
 def main():
     st.title('Designed and developed by :  Abdelkarim  / Multiple Disease Prediction System')
+    # Display input fields for diabetes prediction
+    st.subheader('Diabetes Prediction')
+    image = 'diabetes.png'  # Replace with the path to your image
+    st.image(image, width=500)
+    pregnancies = st.number_input('Number of Pregnancies', min_value=0, step=1, value=0)
+    glucose = st.number_input('Amount of Blood Glucose Level', min_value=0.0, step=1.0, value=0.0)
+    blood_pressure = st.number_input('Blood Pressure Value', min_value=0.0, step=1.0, value=0.0)
+    skin_thickness = st.number_input('Skin Thickness Value', min_value=0.0, step=1.0, value=0.0)
+    insulin = st.number_input('Insulin Level', min_value=0.0, step=1.0, value=0.0)
+    bmi = st.number_input('Body Mass Index Value', min_value=0.0, step=1.0, value=0.0)
+    diabetes_pedigree = st.number_input('Diabetes Pedigree Function Value', min_value=0.0, step=0.01, value=0.0)
+    age = st.number_input('Age of the person', min_value=0, step=1, value=0)
 
-
-
-
-
-        # Display input fields for diabetes prediction
-        st.subheader('Diabetes Prediction')
-        image = 'diabetes.png'  # Replace with the path to your image
-        st.image(image, width=500)
-        pregnancies = st.number_input('Number of Pregnancies', min_value=0, step=1, value=0)
-        glucose = st.number_input('Amount of Blood Glucose Level', min_value=0.0, step=1.0, value=0.0)
-        blood_pressure = st.number_input('Blood Pressure Value', min_value=0.0, step=1.0, value=0.0)
-        skin_thickness = st.number_input('Skin Thickness Value', min_value=0.0, step=1.0, value=0.0)
-        insulin = st.number_input('Insulin Level', min_value=0.0, step=1.0, value=0.0)
-        bmi = st.number_input('Body Mass Index Value', min_value=0.0, step=1.0, value=0.0)
-        diabetes_pedigree = st.number_input('Diabetes Pedigree Function Value', min_value=0.0, step=0.01, value=0.0)
-        age = st.number_input('Age of the person', min_value=0, step=1, value=0)
-
-        # When the user clicks the 'Predict' button, make the diabetes prediction
-        if st.button('Predict'):
+    # When the user clicks the 'Predict' button, make the diabetes prediction
+    if st.button('Predict'):
             input_data = [pregnancies, glucose, blood_pressure, skin_thickness, insulin, bmi, diabetes_pedigree, age]
             prediction = diabetes_prediction(input_data)
             st.write(prediction)
