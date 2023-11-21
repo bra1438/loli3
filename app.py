@@ -19,9 +19,9 @@ def diabetes_prediction(input_data):
 
 # Define the Streamlit app
 def main():
-    st.title('Designed and developed by :  Abdelkarim  / Multiple Disease Prediction System')
+    st.title('Designed and developed by :  Abdelkarim  / Diabetes Prediction System using Artificial Intelligence')
     # Display input fields for diabetes prediction
-    st.subheader('Diabetes Prediction')
+    st.subheader('A Diabetes Prediction System using Artificial Intelligence (AI) is a computer program that uses machine learning algorithms to analyze patient data and predict whether they have diabetes or not. These systems can be used to help doctors diagnose diabetes early and make informed treatment decisions.')
     image = 'diabetes.png'  # Replace with the path to your image
     st.image(image, width=500)
     pregnancies = st.number_input('Number of Pregnancies', min_value=0, step=1, value=0)
