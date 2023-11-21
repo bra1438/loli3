@@ -22,10 +22,9 @@ def main():
     st.title('Designed and developed by :  Abdelkarim  / Multiple Disease Prediction System')
 
 
-    # Create a sidebar for disease selection
-    selected_disease = st.sidebar.selectbox('Select Disease', ('Diabetes'))
 
-    if selected_disease == 'Diabetes':
+
+
         # Display input fields for diabetes prediction
         st.subheader('Diabetes Prediction')
         image = 'diabetes.png'  # Replace with the path to your image
