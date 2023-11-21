@@ -24,6 +24,7 @@ def main():
     st.subheader('A Diabetes Prediction System using Artificial Intelligence (AI) is a computer program that uses machine learning algorithms to analyze patient data and predict whether they have diabetes or not. These systems can be used to help doctors diagnose diabetes early and make informed treatment decisions.')
     image = 'diabetes.png'  # Replace with the path to your image
     st.image(image, width=500)
+    age = st.slider('Age of the person', min_value=0, step=1, value=0)
     pregnancies = st.number_input('Number of Pregnancies', min_value=0, step=1, value=0)
     glucose = st.number_input('Amount of Blood Glucose Level', min_value=0.0, step=1.0, value=0.0)
     blood_pressure = st.number_input('Blood Pressure Value', min_value=0.0, step=1.0, value=0.0)
