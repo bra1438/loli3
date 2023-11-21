@@ -32,8 +32,7 @@ def main():
     insulin = st.number_input('Insulin Level', min_value=0.0, step=1.0, value=0.0)
     bmi = st.number_input('Body Mass Index Value', min_value=0.0, step=1.0, value=0.0)
     diabetes_pedigree = st.number_input('Diabetes Pedigree Function Value', min_value=0.0, step=0.01, value=0.0)
-    age = st.slider('Age of the person', min_value=0, step=1, value=0)
-    
+        
 
     # When the user clicks the 'Predict' button, make the diabetes prediction
     if st.button('Predict'):
